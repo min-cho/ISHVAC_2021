@@ -4,7 +4,7 @@ Created on Tue Sep  7 15:20:32 2021
 
 @author: MR004CHM
 """
-
+"""
 import os
 import tensorflow as tf
 import numpy as np
@@ -23,9 +23,10 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_squared_log_error
 from sklearn import linear_model
+"""
 
 tf.random.set_seed(777)
-os.chdir('C:\\Users\\MR004CHM\\Desktop\\TFcode\\2021-fdd')
+#os.chdir('C:\\Users\\MR004CHM\\Desktop\\TFcode\\2021-fdd')
 
 ######################################################################################################################
 #%% DEFINE FUNCTIONS ####
